@@ -1,0 +1,4 @@
+StrictHostKeyChecking no
+ControlPath ~/.ssh/idf_link
+ControlMaster auto
+ControlPersist yes

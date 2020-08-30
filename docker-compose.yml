@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  idf:
+    build: .
+    image: thelostlambda/idf-docker
+    volumes:
+      - type: bind
+        source: /home/tll/Documents/Coding/Embedded/ESP32/evolutor
+        target: /home/alarm/evolutor
